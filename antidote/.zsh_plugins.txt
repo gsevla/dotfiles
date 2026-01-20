@@ -1,0 +1,35 @@
+#### be aware about this file below
+## https://github.com/getantidote/zdotdir/blob/main/.zsh_plugins.txt
+
+### Sourcing
+$ASDF_HOME path:libexec/asdf.sh kind:zsh
+#$ANDROID_HOME kind:path
+#/opt/homebrew/opt/asdf/libexec kind:zsh
+#/Users/gabrielalves/Library/Android/sdk kind:path
+
+
+### Android
+$ANDROID_HOME/emulator kind:path
+#$ANDROID_HOME/platform-tools kind:path
+#/Users/gabrielalves/Library/Android/sdk/emulator kind:path
+/Users/gabrielalves/Library/Android/sdk/platform-tools kind:path
+
+### Completion
+#$ASDF_HOME/libexec path:completions kind:fpath
+/opt/homebrew/opt/asdf/libexec path:completions kind:fpath
+#mattmc3/zephyr path:plugins/completion
+
+### Prompt
+sindresorhus/pure
+
+### Framework
+belak/zsh-utils path:history
+belak/zsh-utils path:utility
+belak/zsh-utils path:editor
+
+### Final Plugins
+mattmc3/zephyr path:plugins/completion
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-completions
