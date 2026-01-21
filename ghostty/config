@@ -1,0 +1,31 @@
+## options
+
+font-family = JetBrainsMonoNL Nerd Font Mono
+font-size = 13
+
+theme = Dracula
+
+background-opacity = 0.8
+background-opacity-cells = true
+background-blur = 20
+
+keybind = opt+arrow_left=unbind
+keybind = opt+arrow_right=unbind
+#keybind = opt+arrow_left=unbind
+#keybind = opt+arrow_left=unbind
+
+# quick terminal
+quick-terminal-position = top
+quick-terminal-size = 100%,100%
+quick-terminal-screen = mouse
+quick-terminal-animation-duration = 0
+quick-terminal-autohide = false
+quick-terminal-space-behavior = move
+quick-terminal-keyboard-interactivity = on-demand
+
+# misc
+shell-integration = zsh
+macos-hidden = always
+
+## actions
+keybind = global:ctrl+`=toggle_quick_terminal
